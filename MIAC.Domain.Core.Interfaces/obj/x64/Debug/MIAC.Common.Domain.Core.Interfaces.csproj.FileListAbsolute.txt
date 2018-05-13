@@ -1,0 +1,6 @@
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Interfaces\bin\x64\Debug\MIAC.Common.Domain.Core.Interfaces.dll
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Interfaces\bin\x64\Debug\MIAC.Common.Domain.Core.Interfaces.pdb
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Interfaces\obj\x64\Debug\MIAC.Common.Domain.Core.Interfaces.csprojResolveAssemblyReference.cache
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Interfaces\obj\x64\Debug\MIAC.Common.Domain.Core.Interfaces.csproj.CoreCompileInputs.cache
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Interfaces\obj\x64\Debug\MIAC.Common.Domain.Core.Interfaces.dll
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Interfaces\obj\x64\Debug\MIAC.Common.Domain.Core.Interfaces.pdb

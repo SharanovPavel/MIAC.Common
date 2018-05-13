@@ -1,0 +1,8 @@
+D:\Projects\MIAC.Common\MIAC.Common.Domain\bin\x64\Debug\MIAC.Common.Domain.Core.Abstraction.dll
+D:\Projects\MIAC.Common\MIAC.Common.Domain\bin\x64\Debug\MIAC.Common.Domain.Core.Abstraction.pdb
+D:\Projects\MIAC.Common\MIAC.Common.Domain\bin\x64\Debug\MIAC.Common.Domain.Core.Interfaces.dll
+D:\Projects\MIAC.Common\MIAC.Common.Domain\bin\x64\Debug\MIAC.Common.Domain.Core.Interfaces.pdb
+D:\Projects\MIAC.Common\MIAC.Common.Domain\obj\x64\Debug\MIAC.Common.Domain.Core.Abstraction.csprojResolveAssemblyReference.cache
+D:\Projects\MIAC.Common\MIAC.Common.Domain\obj\x64\Debug\MIAC.Common.Domain.Core.Abstraction.csproj.CoreCompileInputs.cache
+D:\Projects\MIAC.Common\MIAC.Common.Domain\obj\x64\Debug\MIAC.Common.Domain.Core.Abstraction.dll
+D:\Projects\MIAC.Common\MIAC.Common.Domain\obj\x64\Debug\MIAC.Common.Domain.Core.Abstraction.pdb

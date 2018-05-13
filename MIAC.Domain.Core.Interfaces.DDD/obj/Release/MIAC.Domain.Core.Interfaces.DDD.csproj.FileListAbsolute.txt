@@ -1,0 +1,12 @@
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Interfaces.DDD\bin\Release\MIAC.Domain.Core.Interfaces.DDD.dll
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Interfaces.DDD\bin\Release\MIAC.Domain.Core.Interfaces.DDD.pdb
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Interfaces.DDD\bin\Release\MIAC.Common.Patterns.Creational.dll
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Interfaces.DDD\bin\Release\MIAC.Domain.Core.Interfaces.dll
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Interfaces.DDD\bin\Release\MIAC.Domain.Core.Interfaces.pdb
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Interfaces.DDD\bin\Release\MIAC.Domain.Core.Interfaces.xml
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Interfaces.DDD\bin\Release\MIAC.Common.Patterns.Creational.pdb
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Interfaces.DDD\bin\Release\MIAC.Common.Patterns.Creational.xml
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Interfaces.DDD\obj\Release\MIAC.Domain.Core.Interfaces.DDD.csprojResolveAssemblyReference.cache
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Interfaces.DDD\obj\Release\MIAC.Domain.Core.Interfaces.DDD.csproj.CoreCompileInputs.cache
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Interfaces.DDD\obj\Release\MIAC.Domain.Core.Interfaces.DDD.dll
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Interfaces.DDD\obj\Release\MIAC.Domain.Core.Interfaces.DDD.pdb

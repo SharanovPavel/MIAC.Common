@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MIAC.Common.Domain.Core.Interfaces</name>
+    </assembly>
+    <members>
+        <member name="T:MIAC.Common.Domain.Core.Interfaces.IHasIdentityField`1">
+            <summary>
+            Предоставляет интерфейс для однозначной идентификации элемента с помощью идентификатора типа <typeparamref name="T"/>
+            </summary>
+            <typeparam name="T">Тип идентификатора элемента</typeparam>
+        </member>
+        <member name="P:MIAC.Common.Domain.Core.Interfaces.IHasIdentityField`1.Id">
+            <summary>
+            Идентификатор сущности
+            </summary>
+        </member>
+        <member name="T:MIAC.Common.Domain.Core.Interfaces.IHasTimeStamps">
+            <summary>
+            Определяет интерфейсы временных меток создания и модификации
+            </summary>
+        </member>
+        <member name="T:MIAC.Common.Domain.Core.Interfaces.IHasCreationDate">
+            <summary>
+            Определяет интерфейс временной метки создания
+            </summary>
+        </member>
+        <member name="P:MIAC.Common.Domain.Core.Interfaces.IHasCreationDate.Created">
+            <summary>
+            Время создания объекта
+            </summary>
+        </member>
+        <member name="T:MIAC.Common.Domain.Core.Interfaces.IHasUpdatedDate">
+            <summary>
+            Определяет интерфейс временной метки модификации
+            </summary>
+        </member>
+        <member name="P:MIAC.Common.Domain.Core.Interfaces.IHasUpdatedDate.Updated">
+            <summary>
+            Время псоледнего модификации состояния объекта
+            </summary>
+        </member>
+    </members>
+</doc>

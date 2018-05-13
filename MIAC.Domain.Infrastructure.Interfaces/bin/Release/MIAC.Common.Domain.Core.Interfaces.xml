@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MIAC.Common.Domain.Core.Interfaces</name>
+    </assembly>
+    <members>
+        <member name="T:MIAC.Common.Domain.Core.Interfaces.IHasIdentityField`1">
+            <summary>
+            Предоставляет интерфейс для однозначной идентификации элемента с помощью идентификатора типа <see cref="!:T"/>
+            </summary>
+            <typeparam name="T">Тип идентификатора элемента</typeparam>
+        </member>
+        <member name="T:MIAC.Common.Domain.Core.Interfaces.IHasTimeStamps">
+            <summary>
+            Определяет интерфейсы временных меток создания и модификации
+            </summary>
+        </member>
+        <member name="T:MIAC.Common.Domain.Core.Interfaces.IHasCreatedDate">
+            <summary>
+            Определяет интерфейс временной метки создания
+            </summary>
+        </member>
+        <member name="T:MIAC.Common.Domain.Core.Interfaces.IHasUpdatedDate">
+            <summary>
+            Определяет интерфейс временной метки модификации
+            </summary>
+        </member>
+    </members>
+</doc>

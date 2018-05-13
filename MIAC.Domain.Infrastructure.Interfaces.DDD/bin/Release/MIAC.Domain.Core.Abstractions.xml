@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MIAC.Domain.Core.Abstractions</name>
+    </assembly>
+    <members>
+        <member name="T:MIAC.Domain.Core.Abstractions.EntityBase">
+            <summary>
+            Представляет сущность доменной модели
+            </summary>
+        </member>
+        <member name="T:MIAC.Domain.Core.Abstractions.IdentifiableEntity`1">
+            <summary>
+            Представляет сущность доменной модели, имеющую идентификатор типа <typeparamref name="T"/>
+            </summary>
+            <typeparam name="T">Тип идентификатора</typeparam>
+        </member>
+        <member name="P:MIAC.Domain.Core.Abstractions.IdentifiableEntity`1.Id">
+            <summary>
+            Идентификатор сущности
+            </summary>
+        </member>
+        <member name="P:MIAC.Domain.Core.Abstractions.IdentifiableEntity`1.IsTransient">
+            <summary>
+            Является ли объект временным (т.е. у него нет своего ID, а значит его состояние не сохранено в хранилище)
+            </summary>
+        </member>
+        <member name="M:MIAC.Domain.Core.Abstractions.IdentifiableEntity`1.Equals(System.Object)">
+            <summary>
+            ВЫполняет проверку равенства двух объектов на основании ID
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MIAC.Domain.Core.Abstractions.IdentifiableEntity`1.GetHashCode">
+            <summary>
+            Хэш-код сущности, основанный на ID
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

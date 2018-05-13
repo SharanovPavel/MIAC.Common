@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MIAC.Common.Patterns.Creational</name>
+    </assembly>
+    <members>
+        <member name="T:MIAC.Patterns.Creational.BuilderBase`1">
+            <summary>
+            Представляет абстрактный строитель объектов типа <typeparamref name="T"/>
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:MIAC.Patterns.Creational.BuilderBase`1.Object">
+            <summary>
+            Экземпляр типа <see cref="!:T"/>
+            </summary>
+        </member>
+        <member name="M:MIAC.Patterns.Creational.BuilderBase`1.Create">
+            <summary>
+            Возвращает текущее состояние экземпляра
+            </summary>
+        </member>
+        <member name="M:MIAC.Patterns.Creational.BuilderBase`1.Reset">
+            <summary>
+            Сбрасывает текущее состояние
+            </summary>
+        </member>
+        <member name="T:MIAC.Patterns.Creational.ICreator`1">
+            <summary>
+            Представляет реализацию паттерна "фабричный метод"
+            <para>https://en.wikipedia.org/wiki/Factory_method_pattern</para>
+            </summary>
+            <typeparam name="T">Тип создаваемого объекта</typeparam>
+        </member>
+        <member name="T:MIAC.Patterns.Creational.IBuilder`1">
+            <summary>
+            Определяет базовый интерфейс паттерна "Строитель" (Builder) для типа <see cref="!:T"/>
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:MIAC.Patterns.Creational.IBuilder`1.Reset">
+            <summary>
+            Сбрасывает состояние экземпляра
+            </summary>
+        </member>
+        <member name="T:MIAC.Patterns.Creational.ICanCreateObject`1">
+            <summary>
+            Обобщенный интерфейс для большинства порождающих паттернов
+            </summary>
+            <typeparam name="T">Тип порождаемой сущности</typeparam>
+        </member>
+        <member name="M:MIAC.Patterns.Creational.ICanCreateObject`1.Create">
+            <summary>
+            Создает экземпляр объекта
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:MIAC.Patterns.Creational.Singleton`1">
+            <summary>
+            Представляет базовую реализацию паттерна "Одиночка" (Singleton)
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:MIAC.Patterns.Creational.Singleton`1.Instance">
+            <summary>
+            Экземпляр сущности
+            </summary>
+        </member>
+        <member name="M:MIAC.Patterns.Creational.Singleton`1.Create">
+            <summary>
+            Получить объект-одиночку
+            </summary>
+            <returns>Экземпляр объекта-одиночки</returns>
+        </member>
+    </members>
+</doc>

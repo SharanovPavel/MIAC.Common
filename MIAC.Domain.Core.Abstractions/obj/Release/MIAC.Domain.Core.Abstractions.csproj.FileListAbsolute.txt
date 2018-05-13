@@ -1,0 +1,13 @@
+D:\Projects\MIAC.Common\MIAC.Common.Domain\bin\Release\MIAC.Domain.Core.Abstractions.xml
+D:\Projects\MIAC.Common\MIAC.Common.Domain\bin\Release\MIAC.Domain.Core.Abstractions.dll
+D:\Projects\MIAC.Common\MIAC.Common.Domain\bin\Release\MIAC.Domain.Core.Abstractions.pdb
+D:\Projects\MIAC.Common\MIAC.Common.Domain\bin\Release\MIAC.Common.Patterns.Creational.dll
+D:\Projects\MIAC.Common\MIAC.Common.Domain\bin\Release\MIAC.Domain.Core.Interfaces.dll
+D:\Projects\MIAC.Common\MIAC.Common.Domain\bin\Release\MIAC.Domain.Core.Interfaces.pdb
+D:\Projects\MIAC.Common\MIAC.Common.Domain\bin\Release\MIAC.Domain.Core.Interfaces.xml
+D:\Projects\MIAC.Common\MIAC.Common.Domain\bin\Release\MIAC.Common.Patterns.Creational.pdb
+D:\Projects\MIAC.Common\MIAC.Common.Domain\bin\Release\MIAC.Common.Patterns.Creational.xml
+D:\Projects\MIAC.Common\MIAC.Common.Domain\obj\Release\MIAC.Domain.Core.Abstractions.csprojResolveAssemblyReference.cache
+D:\Projects\MIAC.Common\MIAC.Common.Domain\obj\Release\MIAC.Domain.Core.Abstractions.csproj.CoreCompileInputs.cache
+D:\Projects\MIAC.Common\MIAC.Common.Domain\obj\Release\MIAC.Domain.Core.Abstractions.dll
+D:\Projects\MIAC.Common\MIAC.Common.Domain\obj\Release\MIAC.Domain.Core.Abstractions.pdb

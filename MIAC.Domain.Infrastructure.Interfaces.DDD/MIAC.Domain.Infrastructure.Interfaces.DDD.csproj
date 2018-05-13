@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{899059FD-345B-41AF-A313-2BA81CD579BF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MIAC.Domain.Core.Interfaces.DDD</RootNamespace>
+    <AssemblyName>MIAC.Domain.Core.Interfaces.DDD</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ILocalIdentityRepository.cs" />
+    <Compile Include="IRepository.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MIAC.Domain.Core.Abstractions.DDD\MIAC.Domain.Core.Abstractions.DDD.csproj">
+      <Project>{C9F9E2B8-D9CA-404F-9D09-12C9AC5469B0}</Project>
+      <Name>MIAC.Domain.Core.Abstractions.DDD</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MIAC.Domain.Core.Interfaces.DDD\MIAC.Domain.Core.Interfaces.DDD.csproj">
+      <Project>{bc6bddbb-9470-4855-af5b-e04d557e4815}</Project>
+      <Name>MIAC.Domain.Core.Interfaces.DDD</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MIAC.Domain.Core.Interfaces\MIAC.Domain.Core.Interfaces.csproj">
+      <Project>{CC6B9B61-94CF-4E70-891C-C3F12CFDBFF9}</Project>
+      <Name>MIAC.Domain.Core.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MIAC.Domain.Core.Abstractions\MIAC.Domain.Core.Abstractions.csproj">
+      <Project>{651C5200-71FE-4EC1-980B-1DDFF443479B}</Project>
+      <Name>MIAC.Domain.Core.Abstractions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MIAC.Patterns.Creational\MIAC.Patterns.Creational.csproj">
+      <Project>{E70DBDDD-FAF2-4DF5-849D-435DF18DA307}</Project>
+      <Name>MIAC.Patterns.Creational</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MIAC.Domain.Infrastructure.Interfaces\MIAC.Domain.Infrastructure.Interfaces.csproj">
+      <Project>{151D4639-8625-4382-881A-30E0FDF4DDB9}</Project>
+      <Name>MIAC.Domain.Infrastructure.Interfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="readme.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

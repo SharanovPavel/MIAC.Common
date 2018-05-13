@@ -1,0 +1,6 @@
+D:\Projects\MIAC.Common\MIAC.Common.Patterns.Creational\bin\Release\MIAC.Common.Patterns.Creational.xml
+D:\Projects\MIAC.Common\MIAC.Common.Patterns.Creational\bin\Release\MIAC.Common.Patterns.Creational.dll
+D:\Projects\MIAC.Common\MIAC.Common.Patterns.Creational\bin\Release\MIAC.Common.Patterns.Creational.pdb
+D:\Projects\MIAC.Common\MIAC.Common.Patterns.Creational\obj\Release\MIAC.Common.Patterns.Creational.csproj.CoreCompileInputs.cache
+D:\Projects\MIAC.Common\MIAC.Common.Patterns.Creational\obj\Release\MIAC.Common.Patterns.Creational.dll
+D:\Projects\MIAC.Common\MIAC.Common.Patterns.Creational\obj\Release\MIAC.Common.Patterns.Creational.pdb

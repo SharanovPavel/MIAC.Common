@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MIAC.Common.Patterns.Behavioral</name>
+    </assembly>
+    <members>
+        <member name="T:MIAC.Patterns.Behavioral.Command.CommandBase`1">
+            <summary>
+            Представляет абстрактную реализацию <see cref="T:MIAC.Patterns.Behavioral.Command.ICommand"/> с типом получателя <typeparamref name="ReceiverT"/>
+            </summary>
+            <typeparam name="ReceiverT"></typeparam>
+        </member>
+        <member name="T:MIAC.Patterns.Behavioral.Command.ICommand">
+            <summary>
+            Предоставляет интерфейс выполнения команды (паттерн "Command" (Команда))
+            <para>Используйте <see cref="T:MIAC.Patterns.Behavioral.Command.IUndoableCommand"/> и <see cref="T:MIAC.Patterns.Behavioral.Command.IRedoableCommand"/> для расширения функционала реализаций</para>
+            </summary>
+        </member>
+        <member name="M:MIAC.Patterns.Behavioral.Command.ICommand.Execute">
+            <summary>
+            Выполняет текущую команду
+            </summary>
+        </member>
+        <member name="T:MIAC.Patterns.Behavioral.Command.IUndoableCommand">
+            <summary>
+            Предоставляет расширение интерфейса <see cref="T:MIAC.Patterns.Behavioral.Command.ICommand"/> с возможностью отката выполнения команды
+            </summary>
+        </member>
+        <member name="M:MIAC.Patterns.Behavioral.Command.IUndoableCommand.Undo">
+            <summary>
+            Откатывает изменения
+            </summary>
+        </member>
+        <member name="T:MIAC.Patterns.Behavioral.Command.IRedoableCommand">
+            <summary>
+            Предоставляет расширение интерфейса <see cref="T:MIAC.Patterns.Behavioral.Command.ICommand"/> с возможностью повтора выполнения команды
+            </summary>
+        </member>
+        <member name="M:MIAC.Patterns.Behavioral.Command.IRedoableCommand.Redo">
+            <summary>
+            Повторяет выполнение комманды
+            </summary>
+        </member>
+    </members>
+</doc>

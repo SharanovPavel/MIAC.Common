@@ -1,0 +1,17 @@
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Abstractions.DDD\bin\Release\MIAC.Domain.Core.Abstractions.DDD.dll
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Abstractions.DDD\bin\Release\MIAC.Domain.Core.Abstractions.DDD.pdb
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Abstractions.DDD\bin\Release\MIAC.Common.Patterns.Creational.dll
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Abstractions.DDD\bin\Release\MIAC.Domain.Core.Abstractions.dll
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Abstractions.DDD\bin\Release\MIAC.Domain.Core.Interfaces.DDD.dll
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Abstractions.DDD\bin\Release\MIAC.Domain.Core.Interfaces.dll
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Abstractions.DDD\bin\Release\MIAC.Domain.Core.Interfaces.DDD.pdb
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Abstractions.DDD\bin\Release\MIAC.Domain.Core.Interfaces.pdb
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Abstractions.DDD\bin\Release\MIAC.Domain.Core.Interfaces.xml
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Abstractions.DDD\bin\Release\MIAC.Domain.Core.Abstractions.pdb
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Abstractions.DDD\bin\Release\MIAC.Domain.Core.Abstractions.xml
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Abstractions.DDD\bin\Release\MIAC.Common.Patterns.Creational.pdb
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Abstractions.DDD\bin\Release\MIAC.Common.Patterns.Creational.xml
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Abstractions.DDD\obj\Release\MIAC.Domain.Core.Abstractions.DDD.csprojResolveAssemblyReference.cache
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Abstractions.DDD\obj\Release\MIAC.Domain.Core.Abstractions.DDD.csproj.CoreCompileInputs.cache
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Abstractions.DDD\obj\Release\MIAC.Domain.Core.Abstractions.DDD.dll
+D:\Projects\MIAC.Common\MIAC.Common.Domain.Core.Abstractions.DDD\obj\Release\MIAC.Domain.Core.Abstractions.DDD.pdb

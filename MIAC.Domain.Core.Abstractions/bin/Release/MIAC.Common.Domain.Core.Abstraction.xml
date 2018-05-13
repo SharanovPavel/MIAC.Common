@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MIAC.Common.Domain.Core.Abstraction</name>
+    </assembly>
+    <members>
+        <member name="T:MIAC.Common.Domain.Core.Abstraction.AggregationRoot">
+            <summary>
+            Представляет корень агрегации в доменной модели
+            <para>Полезные ссылки:</para>
+            <para>https://vaughnvernon.co/wordpress/wp-content/uploads/2014/10/DDD_COMMUNITY_ESSAY_AGGREGATES_PART_1.pdf</para>
+            <para>https://vaughnvernon.co/wordpress/wp-content/uploads/2014/10/DDD_COMMUNITY_ESSAY_AGGREGATES_PART_2.pdf</para>
+            <para>https://vaughnvernon.co/wordpress/wp-content/uploads/2014/10/DDD_COMMUNITY_ESSAY_AGGREGATES_PART_3.pdf</para>
+            </summary>
+        </member>
+        <member name="T:MIAC.Common.Domain.Core.Abstraction.EntityBase">
+            <summary>
+            Представляет сущность доменной модели
+            </summary>
+        </member>
+        <member name="T:MIAC.Common.Domain.Core.Abstraction.IdentifiableEntity`1">
+            <summary>
+            Представляет сущность доменной модели, имеющую идентификатор
+            </summary>
+            <typeparam name="T">Тип идентификатора</typeparam>
+        </member>
+        <member name="P:MIAC.Common.Domain.Core.Abstraction.IdentifiableEntity`1.Id">
+            <summary>
+            Идентификатор сущности
+            </summary>
+        </member>
+        <member name="T:MIAC.Common.Domain.Core.Abstraction.ValueObject">
+            <summary>
+            Представляет объект-значение
+            <para>Полезные ссылки:</para>
+            <para>https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/microservice-ddd-cqrs-patterns/implement-value-objects</para>
+            <para>https://martinfowler.com/bliki/ValueObject.html</para>
+            </summary>
+        </member>
+        <member name="P:MIAC.Common.Domain.Core.Abstraction.ValueObject.Owner">
+            <summary>
+            Сущность - "владелец" объекта
+            </summary>
+        </member>
+    </members>
+</doc>

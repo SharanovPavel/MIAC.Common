@@ -1,0 +1,5 @@
+D:\Projects\MIAC.Common\MIAC.Common.Patterns.Behavioral\bin\Debug\MIAC.Common.Patterns.Behavioral.dll
+D:\Projects\MIAC.Common\MIAC.Common.Patterns.Behavioral\bin\Debug\MIAC.Common.Patterns.Behavioral.pdb
+D:\Projects\MIAC.Common\MIAC.Common.Patterns.Behavioral\obj\Debug\MIAC.Common.Patterns.Behavioral.csproj.CoreCompileInputs.cache
+D:\Projects\MIAC.Common\MIAC.Common.Patterns.Behavioral\obj\Debug\MIAC.Common.Patterns.Behavioral.dll
+D:\Projects\MIAC.Common\MIAC.Common.Patterns.Behavioral\obj\Debug\MIAC.Common.Patterns.Behavioral.pdb

@@ -1,0 +1,231 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MIAC.Domain.Interfaces</name>
+    </assembly>
+    <members>
+        <member name="T:MIAC.Domain.Infrastructure.Interfaces.IUnitOfWork">
+            http://design-pattern.ru/patterns/unit-of-work.html
+            <summary>
+            Представляет интерфейс паттерна "единица работы"
+            </summary>
+        </member>
+        <member name="M:MIAC.Domain.Infrastructure.Interfaces.IUnitOfWork.Commit">
+            <summary>
+            Сохраняет сделанные изменения
+            </summary>
+            <returns>Количество измененных записей</returns>
+        </member>
+        <member name="M:MIAC.Domain.Infrastructure.Interfaces.IUnitOfWork.Rollback">
+            <summary>
+            Откатывает совершенные изменения
+            </summary>
+        </member>
+        <member name="T:MIAC.Domain.Infrastructure.Interfaces.Repository.ICanFindEntities`2">
+            <summary>
+            Предоставляет обобщенный интерфейс для поиска сущностей, имеющий локальный идентификатор, в хранилище
+            </summary>
+            <typeparam name="T">Тип элемента</typeparam>
+            <typeparam name="I">Тип идентификатора элемента</typeparam>
+        </member>
+        <member name="M:MIAC.Domain.Infrastructure.Interfaces.Repository.ICanFindEntities`2.Find(`1)">
+            <summary>
+            Возвращает сущность по ее идентификатору
+            </summary>
+            <param name="id">Идентификатор сущности</param>
+            <returns>Найденная сущность</returns>
+        </member>
+        <member name="M:MIAC.Domain.Infrastructure.Interfaces.Repository.ICanFindEntities`2.Find(System.Collections.Generic.IEnumerable{`1})">
+            <summary>
+            Возвращает сущности по их идентификаторам
+            </summary>
+            <param name="ids">Идентификаторы</param>
+            <returns>Найденные сущности</returns>
+        </member>
+        <member name="T:MIAC.Domain.Infrastructure.Interfaces.Repository.ICanFindEntitesByExpression`1">
+            <summary>
+            Представляет обобщенный интерфейс поиска сущностей с помощью лямбда - выражений (дерева выражений)
+            </summary>
+        </member>
+        <member name="M:MIAC.Domain.Infrastructure.Interfaces.Repository.ICanFindEntitesByExpression`1.Find(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            Возвращает элементы, удовлетворяющие выражению <paramref name="expression"/>
+            </summary>
+            <param name="expression">Выражение для поиска в хранилище</param>
+            <returns>Найденные сущности</returns>
+        </member>
+        <member name="T:MIAC.Domain.Infrastructure.Interfaces.Repository.ICanFindEntitesByGuid">
+            <summary>
+            Предоставляет интерфейс для поиска сущностей, имеющих глобальный идентификатор
+            </summary>
+        </member>
+        <member name="M:MIAC.Domain.Infrastructure.Interfaces.Repository.ICanFindEntitesByGuid.Find``1(System.Guid)">
+            <summary>
+            Возвращает из хранилища сущность с указанным GUID
+            </summary>
+            <param name="guid">Глобальный идентификатор</param>
+            <returns></returns>
+        </member>
+        <member name="M:MIAC.Domain.Infrastructure.Interfaces.Repository.ICanFindEntitesByGuid.Find``1(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            Возвращает из хранилища все сущности, уникальные идентификаторы которых содержатся в <paramref name="guids"/>
+            </summary>
+            <param name="guids">Перечисление уникальных идентификаторов</param>
+            <returns></returns>
+        </member>
+        <member name="T:MIAC.Domain.Infrastructure.Interfaces.Repository.ICanFindEntitiesByGuid`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:MIAC.Domain.Infrastructure.Interfaces.Repository.ICanFindEntitiesByGuid`1.Find(System.Guid)">
+            <summary>
+            Возвращает из хранилища сущность с указанным GUID
+            </summary>
+            <param name="guid">Глобальный идентификатор</param>
+            <returns></returns>
+        </member>
+        <member name="M:MIAC.Domain.Infrastructure.Interfaces.Repository.ICanFindEntitiesByGuid`1.Find(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            Возвращает из хранилища все сущности, уникальные идентификаторы которых содержатся в <paramref name="guids"/>
+            </summary>
+            <param name="guids">Перечисление уникальных идентификаторов</param>
+            <returns></returns>
+        </member>
+        <member name="T:MIAC.Domain.Infrastructure.Interfaces.Repository.ICanInsertEntities`1">
+            <summary>
+            Предоставляет обобщенный интерфейс для добавления сущности в хранилище
+            </summary>
+            <typeparam name="T">Тип сущности</typeparam>
+        </member>
+        <member name="M:MIAC.Domain.Infrastructure.Interfaces.Repository.ICanInsertEntities`1.Insert(`0)">
+            <summary>
+            Добавляет корень агрегации в хранилище
+            </summary>
+            <param name="item">Новый корень агрегации</param>
+            <exception cref="T:System.ArgumentNullException"></exception>
+        </member>
+        <member name="M:MIAC.Domain.Infrastructure.Interfaces.Repository.ICanInsertEntities`1.Insert(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Добавляет 
+            </summary>
+            <param name="items">Новые корни агрегации</param>
+            <exception cref="T:System.ArgumentNullException"></exception>
+        </member>
+        <member name="T:MIAC.Domain.Infrastructure.Interfaces.Repository.ICanRemoveEntities`1">
+            <summary>
+            Предоставляет интерфейс исключения сущностей из хранилища
+            </summary>
+            <typeparam name="T"></typeparam>
+            <typeparam name="I"></typeparam>
+        </member>
+        <member name="M:MIAC.Domain.Infrastructure.Interfaces.Repository.ICanRemoveEntities`1.Remove(`0)">
+            <summary>
+            Исключает сущность из хранилища
+            </summary>
+            <param name="item"></param>
+        </member>
+        <member name="M:MIAC.Domain.Infrastructure.Interfaces.Repository.ICanRemoveEntities`1.Remove(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Исключает сущности из хранилища
+            </summary>
+            <param name="items">Корни агрегации</param>
+        </member>
+        <member name="T:MIAC.Domain.Infrastructure.Interfaces.Repository.ICanRemoveEntitiesById`2">
+            <summary>
+            Определяет интерфейс исключения сущностей из хранилища по идентификатору
+            </summary>
+            <typeparam name="T"></typeparam>
+            <typeparam name="I"></typeparam>
+        </member>
+        <member name="M:MIAC.Domain.Infrastructure.Interfaces.Repository.ICanRemoveEntitiesById`2.Remove(`1)">
+            <summary>
+            Исключает из хранилища сущность по идентификатору
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:MIAC.Domain.Infrastructure.Interfaces.Repository.ICanRemoveEntitiesById`2.Remove(System.Collections.Generic.IEnumerable{`1})">
+            <summary>
+            Исключает сущности из хранилища по идентификаторам
+            </summary>
+            <param name="ids">Идентификаторы</param>
+        </member>
+        <member name="T:MIAC.Domain.Infrastructure.Interfaces.Repository.ICanRemoveEntitiesByGuid">
+            <summary>
+            Предоставляет интерфейс для удаления сущности из хранилища по глобальному идентификатору
+            </summary>
+        </member>
+        <member name="M:MIAC.Domain.Infrastructure.Interfaces.Repository.ICanRemoveEntitiesByGuid.Remove(System.Guid)">
+            <summary>
+            Исключает из хранилища сущность по глобальному идентификатору
+            </summary>
+            <param name="id">Глобальный идентификатор</param>
+        </member>
+        <member name="M:MIAC.Domain.Infrastructure.Interfaces.Repository.ICanRemoveEntitiesByGuid.Remove(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            Исключает сущности из хранилища по идентификаторам
+            </summary>
+            <param name="ids">Глобальные идентификаторы</param>
+        </member>
+        <member name="T:MIAC.Domain.Infrastructure.Interfaces.Repository.ICanRemoveEntitiesByGuid`1">
+            <summary>
+            Предоставляет интерфейс для удаления сущности из хранилища по глобальному идентификатору
+            </summary>
+        </member>
+        <member name="M:MIAC.Domain.Infrastructure.Interfaces.Repository.ICanRemoveEntitiesByGuid`1.Remove(System.Guid)">
+            <summary>
+            Исключает из хранилища сущность по глобальному идентификатору
+            </summary>
+            <param name="id">Глобальный идентификатор</param>
+        </member>
+        <member name="M:MIAC.Domain.Infrastructure.Interfaces.Repository.ICanRemoveEntitiesByGuid`1.Remove(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            Исключает сущности из хранилища по идентификаторам
+            </summary>
+            <param name="ids">Глобальные идентификаторы</param>
+        </member>
+        <member name="T:MIAC.Domain.Infrastructure.Interfaces.Repository.ICanSelectAllEntities`1">
+            <summary>
+            Предоставляет обобщенный интерфейс для загрузки всех сущностей из хранилища
+            </summary>
+            <typeparam name="T">Тип сущности</typeparam>
+        </member>
+        <member name="M:MIAC.Domain.Infrastructure.Interfaces.Repository.ICanSelectAllEntities`1.SelectAll">
+            <summary>
+            Возвращает все сущности, находящиеся в хранилище
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:MIAC.Domain.Infrastructure.Interfaces.Repository.ICanSelectAllEntities">
+            <summary>
+            Предоставляет обобщенный метод полной выгрузки типизированного набора элементов из хранилища
+            </summary>
+        </member>
+        <member name="M:MIAC.Domain.Infrastructure.Interfaces.Repository.ICanSelectAllEntities.SelectAll``1">
+            <summary>
+            Полностью выгружает типизированный набор элементов из хранилища
+            </summary>
+            <typeparam name="T">Тип элемента</typeparam>
+            <returns></returns>
+        </member>
+        <member name="T:MIAC.Domain.Infrastructure.Interfaces.Repository.ICanUpdateEntities`1">
+            <summary>
+            Предоставляет интерфейс для обновления состояния корня агрегации типа <typeparamref name="T"/> в хранилище
+            </summary>
+            <typeparam name="T">Тип сущности</typeparam>
+        </member>
+        <member name="M:MIAC.Domain.Infrastructure.Interfaces.Repository.ICanUpdateEntities`1.Update(`0)">
+            <summary>
+            Обновляет состояние корня агрегации в хранилище
+            </summary>
+            <param name="item">Существующий корень агрегации</param>
+        </member>
+        <member name="M:MIAC.Domain.Infrastructure.Interfaces.Repository.ICanUpdateEntities`1.Update(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Обновляет состояние корней агрегации в хранилище
+            </summary>
+            <param name="items"></param>
+        </member>
+    </members>
+</doc>
